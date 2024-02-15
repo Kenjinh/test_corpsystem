@@ -13,8 +13,11 @@
 <h2 id="technologies">💻 Technologies</h2>
 
 - Vue
+- Python
 - Django(DRF)
 - SQLite
+- Docker
+- Nginx
 
 <h2 id="started">🚀 Getting started</h2>
 
@@ -22,10 +25,7 @@
 
 Here you list all prerequisites necessary for running your project. For example:
 
-- Node.js
-- Python3
 - Docker
-- Nginx
 
 <h3>Cloning</h3>
 
