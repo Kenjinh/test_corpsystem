@@ -24,6 +24,8 @@ Here you list all prerequisites necessary for running your project. For example:
 
 - Node.js
 - Python3
+- Docker
+- Nginx
 
 <h3>Cloning</h3>
 
