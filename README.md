@@ -37,23 +37,9 @@ git clone https://github.com/Kenjinh/test_corpsystem.git
 
 How to start your project
 
-Run Frontend
 ```bash
 cd test_corpsystem
-cd frontend
-npm install
-npm runserver
-```
-
-Run Backend
-```bash
-cd test_corpsystem
-cd backend
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
+docker-compose up -d --build
 ```
 
 <h2 id="colab">🤝 Collaborators</h2>
