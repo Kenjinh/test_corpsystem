@@ -53,7 +53,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr v-for="venda in vendas">
+      <tr v-for="venda in vendas" class="align-middle">
         <th scope="row">{{venda.id}}</th>
         <td>{{venda.cliente_name}}</td>
         <td>{{venda.vendedor_name}}</td>
@@ -62,8 +62,8 @@
         <td>{{venda.status}}</td>
         <td>{{venda.data}}</td>
         <td>
-          <button class="btn btn-outline-primary" @click="editVenda(venda.id)">Editar</button>
-          <button class="btn btn-outline-danger" @click="deleteVenda(venda.id)">Excluir</button>
+          <button class="btn btn-outline-primary mx-1" @click="editVenda(venda.id)">Editar</button>
+          <button class="btn btn-outline-danger mx-1" @click="deleteVenda(venda.id)">Excluir</button>
         </td>
       </tr>
     </tbody>

@@ -4,9 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vite --port 4173 --host 0.0.0.0",
+    "preview": "vite build && vite preview --port 4173 --host 0.0.0.0"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
